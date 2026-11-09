@@ -1,0 +1,17 @@
+{
+	"$schema": "./node_modules/oxlint/configuration_schema.json",
+	"plugins": ["typescript", "unicorn", "import"],
+	"categories": { "correctness": "error", "suspicious": "warn" },
+	"ignorePatterns": ["src/lib/paraglide/**", "src/lib/components/ui/**", "build/**", ".svelte-kit/**"],
+	"rules": {
+		"no-restricted-imports": [
+			"error",
+			{
+				"paths": [
+					{ "name": "lucide-svelte", "message": "Use phosphor-svelte icons." },
+					{ "name": "@lucide/svelte", "message": "Use phosphor-svelte icons." }
+				]
+			}
+		]
+	}
+}

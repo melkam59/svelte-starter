@@ -1,0 +1,20 @@
+{
+	"extends": "$app/tsconfig",
+	"compilerOptions": {
+		"paths": {
+			"#lib": ["./src/lib/index.ts"],
+			"#lib/*": ["./src/lib/*"]
+		},
+		"strict": true,
+		"types": ["$app/types", "node"]
+	},
+	"include": [
+		"src",
+		"tests",
+		"scripts",
+		"vite.config.ts",
+		"playwright.config.ts",
+		"drizzle.config.ts",
+		"commitlint.config.js"
+	]
+}

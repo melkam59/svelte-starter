@@ -1,0 +1,4 @@
+title = "svelte-starter Gitleaks configuration"
+
+[extend]
+useDefault = true
