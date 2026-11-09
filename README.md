@@ -80,3 +80,9 @@ Rules are in `AGENTS.md` and `src/lib/server/modules/README.md`.
 
 `Dockerfile` builds the adapter-node server and runs migrations on start. Set `DATABASE_URL`, `ORIGIN`,
 `BETTER_AUTH_SECRET` and `APP_NAME` in the environment. Health check: `GET /api/health`.
+
+<!-- starter:start -->
+## License
+
+[MIT](LICENSE)
+<!-- starter:end -->
